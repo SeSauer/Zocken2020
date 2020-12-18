@@ -18,6 +18,23 @@ public class Vertex {
 		public Vertex scalarMultiply(double factor) {
 			return new Vertex(x*factor, y*factor);
 		}
+		
+		public void add(Vertex v) {
+			x=x+v.x;
+			y=y+v.y;
+		}
+		
+		public void sub(Vertex v) {
+			x=x-v.x;
+			y=y-v.y;
+		}
+		public boolean equals(Object v){
+			if(v instanceof Vertex) {
+				Vertex w = (Vertex)v;
+				return w.x==x && w.y ==y; 
+			}
+			return false;
+		}
 
 }
 
