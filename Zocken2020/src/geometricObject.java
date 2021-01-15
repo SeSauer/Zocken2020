@@ -10,20 +10,21 @@ public class geometricObject {
 	public Vertex getPos() {return pos;}
 	
 	public geometricObject(double width, double height, Vertex pos) {
+		
 		if(width<0) {
 			width=-width;
 			pos.x=pos.x-width;}
 		if(height<0) {
 			height=-height;
-			pos.y=pos.y-height;}
+			pos.y=pos.y-height;
 		
 		this.pos = pos;
 		this.width=width;
 		this.height=height;
 		
+		}
 		
-
-		
+	
 	}
 	
 	public geometricObject(double width, double height) {
