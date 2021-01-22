@@ -16,15 +16,12 @@ public class geometricObject {
 			pos.x=pos.x-width;}
 		if(height<0) {
 			height=-height;
-			pos.y=pos.y-height;
+			pos.y=pos.y-height;}
 		
 		this.pos = pos;
 		this.width=width;
 		this.height=height;
 		
-		}
-		
-	
 	}
 	
 	public geometricObject(double width, double height) {

@@ -1,8 +1,7 @@
-
 public class test {
 
 	public static void main(String[] args) {
-	/*	Vertex v1 = new Vertex(-17, 4);
+		Vertex v1 = new Vertex(-17, 4);
 		Vertex v2 = new Vertex(42, 0);
 		Vertex vv = new Vertex(0, 0);
 	
@@ -13,14 +12,14 @@ public class test {
 		geometricObject o4 = new geometricObject(-2, -3);
 		geometricObject o6 = new geometricObject(-4, -5, new Vertex(-1, -2));
 
-		System.out.println(v1);
+/*		System.out.println(v1);
 		System.out.println(v2);
 		System.out.println(v1.length());
 		System.out.println(v1.scalarMultiply(2));
-		*/
+	
 		System.out.println("");
 		System.out.println("test "+ new geometricObject(3, 2, new Vertex(3,4)));
-		/*
+		
 		System.out.println(o1);
 		System.out.println(new simpleOval());
 		System.out.println(o2.equals(o5));
@@ -36,7 +35,7 @@ public class test {
 		
 		System.out.println("");
 		System.out.println(o6);
-		*/
+*/
 	}
 
 }
