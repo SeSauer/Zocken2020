@@ -14,7 +14,7 @@ public class MovableImage extends GeometricImage implements GameObject{
 		pos.add(deltaPos);
 	}
 	public void turn() {
-		deltaPos.scalarMultiply(-1);
+		deltaPos.skalarMultMod(-1);
 	}
 	public boolean isLeftOf(GameObject that) {
 		return this.getPos().x+this.getWidth()<that.getPos().x;

@@ -18,6 +18,10 @@ public class Vertex {
 		public Vertex scalarMultiply(double factor) {
 			return new Vertex(x*factor, y*factor);
 		}
+		public void skalarMultMod(double s) {
+			x = s * x;
+			y = s * y;
+		}
 		
 		public void add(Vertex v) {
 			x=x+v.x;
